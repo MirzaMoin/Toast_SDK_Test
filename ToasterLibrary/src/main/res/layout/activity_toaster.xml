@@ -10,11 +10,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:text="This is Toast Demo"
         android:textColor="@android:color/holo_blue_bright"
-        android:gravity="center"
         android:textSize="30dp"
         android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Activity"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="30dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

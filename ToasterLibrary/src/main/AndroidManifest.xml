@@ -3,7 +3,8 @@
     package="com.example.toasterlibrary">
 
     <application>
-        <activity android:name=".ToasterActivity"></activity>
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".ToasterActivity" />
     </application>
 
 </manifest>
